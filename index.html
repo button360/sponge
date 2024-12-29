@@ -36,11 +36,34 @@
         .post-content {
             font-size: 16px;
         }
+        .post-buttons {
+            margin-top: 15px;
+        }
+        .like-button, .share-button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .like-button {
+            background-color: #28a745;
+            color: white;
+        }
+        .share-button {
+            background-color: #007bff;
+            color: white;
+        }
         .signup-notice {
             text-align: center;
             margin-top: 20px;
         }
     </style>
+    <script>
+        function sharePost() {
+            alert('Error: Sharing functionality is currently unavailable. Please try again later.');
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -51,151 +74,271 @@
         <div class="post-title">Post Title 1</div>
         <div class="post-date">Posted on: January 1, 2020</div>
         <div class="post-content">This is a sample post content. It contains information about the topic.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (123)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 2</div>
         <div class="post-date">Posted on: February 15, 2020</div>
         <div class="post-content">This is another sample post content. It contains information about the topic.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (45)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 3</div>
         <div class="post-date">Posted on: March 3, 2020</div>
         <div class="post-content">Sample content for post 3.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (67)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 4</div>
         <div class="post-date">Posted on: April 10, 2020</div>
         <div class="post-content">Sample content for post 4.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (89)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 5</div>
         <div class="post-date">Posted on: May 21, 2020</div>
         <div class="post-content">Sample content for post 5.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (34)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 6</div>
         <div class="post-date">Posted on: June 5, 2020</div>
         <div class="post-content">Sample content for post 6.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (56)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 7</div>
         <div class="post-date">Posted on: July 14, 2020</div>
         <div class="post-content">Sample content for post 7.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (78)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 8</div>
         <div class="post-date">Posted on: August 22, 2020</div>
         <div class="post-content">Sample content for post 8.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (90)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 9</div>
         <div class="post-date">Posted on: September 30, 2020</div>
         <div class="post-content">Sample content for post 9.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (12)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 10</div>
         <div class="post-date">Posted on: October 11, 2020</div>
         <div class="post-content">Sample content for post 10.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (34)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 11</div>
         <div class="post-date">Posted on: November 5, 2020</div>
         <div class="post-content">Sample content for post 11.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (56)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 12</div>
         <div class="post-date">Posted on: December 20, 2020</div>
         <div class="post-content">Sample content for post 12.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (78)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 13</div>
         <div class="post-date">Posted on: January 15, 2021</div>
         <div class="post-content">Sample content for post 13.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (90)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 14</div>
         <div class="post-date">Posted on: February 25, 2021</div>
         <div class="post-content">Sample content for post 14.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (23)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 15</div>
         <div class="post-date">Posted on: March 8, 2021</div>
         <div class="post-content">Sample content for post 15.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (45)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 16</div>
         <div class="post-date">Posted on: April 18, 2021</div>
         <div class="post-content">Sample content for post 16.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (67)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 17</div>
         <div class="post-date">Posted on: May 29, 2021</div>
         <div class="post-content">Sample content for post 17.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (89)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 18</div>
         <div class="post-date">Posted on: June 17, 2021</div>
         <div class="post-content">Sample content for post 18.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (12)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 19</div>
         <div class="post-date">Posted on: July 24, 2021</div>
         <div class="post-content">Sample content for post 19.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (34)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 20</div>
         <div class="post-date">Posted on: August 30, 2021</div>
         <div class="post-content">Sample content for post 20.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (56)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 21</div>
         <div class="post-date">Posted on: September 14, 2021</div>
         <div class="post-content">Sample content for post 21.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (78)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 22</div>
         <div class="post-date">Posted on: October 8, 2021</div>
         <div class="post-content">Sample content for post 22.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (90)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 23</div>
         <div class="post-date">Posted on: November 19, 2021</div>
         <div class="post-content">Sample content for post 23.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (23)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 24</div>
         <div class="post-date">Posted on: December 1, 2021</div>
         <div class="post-content">Sample content for post 24.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (45)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 25</div>
         <div class="post-date">Posted on: January 25, 2022</div>
         <div class="post-content">Sample content for post 25.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (67)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 26</div>
         <div class="post-date">Posted on: February 10, 2022</div>
         <div class="post-content">Sample content for post 26.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (89)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 27</div>
         <div class="post-date">Posted on: March 15, 2022</div>
         <div class="post-content">Sample content for post 27.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (12)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 28</div>
         <div class="post-date">Posted on: April 27, 2022</div>
         <div class="post-content">Sample content for post 28.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (34)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 29</div>
         <div class="post-date">Posted on: May 19, 2022</div>
         <div class="post-content">Sample content for post 29.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (56)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <div class="post">
         <div class="post-title">Post Title 30</div>
         <div class="post-date">Posted on: June 30, 2022</div>
         <div class="post-content">Sample content for post 30.</div>
+        <div class="post-buttons">
+            <button class="like-button">Like (78)</button>
+            <button class="share-button" onclick="sharePost()">Share</button>
+        </div>
     </div>
     <!-- End of posts -->
     <div class="signup-notice">
